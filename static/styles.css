@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #3498db; /* Plava boja */
+    --primary-hover-color: #2980b9; /* Tamnija plava za hover */
+    --success-color: #2ecc71; /* Zelena boja */
+    --success-hover-color: #27ae60; /* Tamnija zelena za hover */
+    --title-color: #333333; /* Tamno siva za naslove */
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: wheat;
+}
+
+.content{
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+  
+}
+.content h1 {
+    color: darkgreen; 
+}
+.content h4 {
+  color: #666;
+}
+.content table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.content table th,td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+a:hover {
+  background-color:var(--primary-hover-color);
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: solid 1px;
+  border-radius: 10px;
+}
+#btn_add {
+    background-color: #34db93; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#btn_add:hover {
+    background-color: #3cb929; 
+}
